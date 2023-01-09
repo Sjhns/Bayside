@@ -75,6 +75,10 @@
 @media all and (max-width: 995px) {
     header span{
         text-align: center;
+        display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
     }
 
     .module-2 h2{
