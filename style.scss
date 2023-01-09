@@ -7,6 +7,10 @@
   font-family: "Lato", sans-serif;
 }
 
+body{
+  min-width: 320px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -200,7 +204,7 @@ main {
     text-transform: uppercase;
 
     color: #002d69;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
 
   div {
@@ -212,6 +216,12 @@ main {
     img {
       width: 330px;
       height: 330px;
+
+      transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
     }
   }
 
@@ -300,6 +310,12 @@ main {
         width: 100%;
         text-align: center;
       }
+
+      transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
     }
   }
 }
@@ -347,6 +363,12 @@ main {
         width: 330px;
         height: 330px;
         margin-bottom: 20px;
+
+        transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
       }
     }
   }

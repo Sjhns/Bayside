@@ -6,6 +6,10 @@
   font-family: "Lato", sans-serif;
 }
 
+body {
+  min-width: 320px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -180,7 +184,7 @@ main img {
   letter-spacing: 0.0000000391px;
   text-transform: uppercase;
   color: #002d69;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .module-4 div {
   width: 100%;
@@ -192,6 +196,10 @@ main img {
 .module-4 div img {
   width: 330px;
   height: 330px;
+  transition: 0.3s;
+}
+.module-4 div img:hover {
+  transform: scale(1.1);
 }
 .module-4 button {
   background: #002d69;
@@ -243,6 +251,7 @@ main img {
   padding: 20px;
   width: 390px;
   height: 230px;
+  transition: 0.3s;
 }
 .module-5 .container-cards .card img {
   width: 28px;
@@ -271,6 +280,9 @@ main img {
   color: #000000;
   width: 100%;
   text-align: center;
+}
+.module-5 .container-cards .card:hover {
+  transform: scale(1.1);
 }
 
 .module-6 {
@@ -317,6 +329,10 @@ main img {
   width: 330px;
   height: 330px;
   margin-bottom: 20px;
+  transition: 0.3s;
+}
+.module-6 .container-cards .card img:hover {
+  transform: scale(1.1);
 }
 .module-6 button {
   background: #002d69;
