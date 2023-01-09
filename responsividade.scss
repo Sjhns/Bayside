@@ -187,6 +187,7 @@
 
       .author .info .develop{
         font-size: 1rem;
+        white-space: nowrap;
       }
 
       footer .details .info {
@@ -195,5 +196,15 @@
 
       .module-6 .container-cards .card img {
         width: 286px;
+      }
+
+      .module-5 .container-cards .card{
+        width: 240px;
+        height: 270px;
+      }
+
+      .module-2 .container-cards{
+        display: flex !important;
+        flex-direction: column;
       }
 }
