@@ -1,6 +1,6 @@
 # Bayside
 
-Site de reservar de hotéis.
+Landing page para um loja de joias.
 
 ## Deploy
 
